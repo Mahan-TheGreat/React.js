@@ -1,0 +1,470 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+body{
+   background-color: navajowhite;
+}
+
+.containerHeader{
+	
+    background-color: burlywood;
+	display: flex;
+	padding: 1px;
+	justify-content: space-evenly;
+	height: 5%;
+	border-bottom: 2px ridge maroon;
+	
+}
+
+.col-mainLogo{
+	position: relative;
+    left: 0px;
+  
+	border-radius: 50%;
+	width:20%;
+	min-width: 20%;
+	margin: 0.29rem;
+}
+
+.col-mainLogo img{
+   	border-radius: 50%;	
+	width: 100%;	
+	object-fit: fill;
+	transition: transform 1s ease-in-out;		
+}
+
+.col-mainLogo img:hover{
+	cursor: -webkit-grabbing;
+	transform: rotate(360deg);
+}
+
+.col-contact1{
+	
+	display: flex;
+    }
+
+.col-contact1 img{
+        height: 20%;
+        width: 20%;
+        padding: 5px;
+        bottom: 0; 
+        justify-content: flex-start;
+    }
+
+    .col-contact1 svg{
+        padding: 5px;
+        transition: transform 0.3s ease-in;
+    }
+    .col-contact1 svg:hover{
+        cursor: pointer;
+        
+        transform: rotate(360deg);
+        
+    }
+
+.col-welcomeBanner{
+        display: inline-block;
+      
+        
+        }
+
+        #tag {
+            
+            text-align: center;
+            font-family:  Georgia, serif;
+            text-transform: uppercase;
+            color: #4B4453;
+            font-size: 5rem;
+            letter-spacing: 0.13rem;
+            
+            font-weight: bolder;
+          
+            margin-top: 1rem;
+            
+            
+        }
+        
+        #dcode {
+            font-family: 'lora',serif;
+            color: #4B4453;
+            
+            font-size: 1rem;
+            font-weight: bolder;
+            letter-spacing: 0.15rem;
+           
+            text-transform: uppercase;
+            font-style: italic;
+            margin-bottom: 0rem;
+            text-align: right;
+            padding: 0.1rem 1rem;
+        
+            
+        }
+
+    
+nav{
+    background-color: beige;
+    padding: 0.4rem 0;
+ 
+    border-bottom: 2px ridge maroon;
+    }
+    
+    nav ul{
+       
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        
+        
+    }
+    
+    nav li{
+         border-radius: 10%;
+         border: 2px solid gray;;
+         padding: 0.3rem;
+         
+         font-weight: bolder;
+         font-family: 'lora',serif;
+         transition: transform 0.4s ease-out ;
+         
+    }
+    nav li:hover{
+        
+        cursor: pointer;
+        transform:scale(1.2);
+        background: burlywood;  
+    }
+    
+    nav button{
+       color: black;	
+        }
+
+        .navigateProducts{
+            background-color: beige;
+            padding-top:0.5rem;
+            padding-bottom:0.5rem;
+            border:3px dotted burlywood;
+            transition: transform 0.5s steps(2);
+        }
+        .navigateProducts:hover{
+            background-color: beige;
+          
+          
+        }
+        .navigateProducts ul{
+           display: flex;
+           align-items: center;
+           align-content: center;
+           justify-content: space-around;
+           list-style: none;
+           align-self: center;
+           list-style-type: none;
+           
+        }
+        .navigateProducts li{   
+           
+            padding: 1px; 
+            justify-content: center;
+            
+         }
+         .navigateProducts button:hover{   
+             cursor: pointer;
+            transform:scale(1.3);
+            background-color: slategrey;
+         }
+
+         .navigateProducts button{  
+            padding: 4px;
+            border: none;
+           font-size: 1.5rem;
+            background-color: mintcream;
+            
+         }
+         .productsDraw{
+             display: flex;
+             justify-content: space-around; 
+             align-items: flex-start;
+             background-color: navajowhite;
+         }
+        .product{
+            
+            display: flex;
+            width: 80%;
+            flex-direction: column;
+            align-items: center;
+            background-color:burlywood;
+            border-radius: 10%;
+            padding: 2rem 0rem;
+            margin-top: 5%;
+            margin-left:5%;
+            justify-content: space-around;
+             
+        }
+       
+   
+        .product h2{
+            padding: 5px;
+             font-weight: bold;
+             font-size: 1.5rem;
+             color: darkred;
+        }
+        .product h3{
+            color: darkslategray;
+            padding: 5px;
+            font-weight: bold;
+            font-size: 1rem;
+       }
+       .product button{
+           padding: 5px ; 
+           border-radius: 20%;
+          background-color: beige;
+      }
+      .product button:hover{
+        transform: scale(1.3) ;
+        transition: transform 500 ease-in-out;
+        background-color: sienna;
+        color:gold;
+   }
+       
+        .product img{
+            width: 60%;
+            border: 1px solid maroon ;
+            border-radius: 10%;
+        }
+       
+         .product img:hover{
+            transform: scale(1.05); 
+           transition: transform 500 ease-in-out;
+        }
+
+     .HotProducts{
+         display: flex;
+         flex-direction: column;
+         background-color:navajowhite;
+         box-sizing: content-box;
+         border: 1px solid saddlebrown;
+         
+         width: 25%;
+        justify-content: space-around;
+     }
+     .HotProducts h1{
+       padding: 15px;
+       width: 90%;
+        font-weight: bold;
+        font-style: italic;
+        background-color: sienna;
+        color: gold;
+        border-radius: 5%;
+        font-size: 2rem;
+        align-self: center;
+    }
+        
+        .containerHeader{
+	
+            display: flex;
+            padding: 1px;
+            width: 100%;
+            height: 5%;           
+            box-sizing: border-box;
+        }
+
+        .productDetailsCard{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .productDetails{
+            margin-left: 5%;
+            align-items: center;
+            display: flex;
+            
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid saddlebrown;
+            border-radius: 10%;
+            margin: 4rem 2rem;
+           
+            justify-content: space-around;
+             background-color:burlywood;
+        }
+       
+   
+        .productDetails label{
+             font-weight: bold;
+             font-size: 1rem;
+        }
+       
+        .productDetails img{
+            border:  2px dotted saddlebrown ;
+            width: 80%;
+            height: 80vh;
+            border-radius: 10%;
+        }
+       
+         .productDetails img:hover{
+
+            transform: scale(1.05);
+           transition: transform 500 ease-in-out;
+           border: 3px solid blanchedalmond;
+        }
+
+        .productDetails h1{
+
+            padding: 15px;
+            font-weight: bold;
+            font-size: 2rem;
+            color: darkred;
+        }
+
+        .productDetails h3{
+            color: darkslategrey;
+            padding: 5px;
+             font-weight: bold;
+             font-size: 1.5rem;
+        }
+
+        .productDetails h4{
+            color: purple;
+            padding: 5px;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .reviewDraw{
+ 
+            background-color: wheat;
+            border: 1px solid saddlebrown;
+            border-radius: 5%;
+           
+        }
+
+        .reviewDraw ul{
+            display: flex;
+            flex-direction: column;
+         
+            padding: 5px;
+            list-style-type: decimal;
+        }
+
+        .reviewDraw li{
+           
+            display: flex;
+            padding: 15px;
+           justify-content: space-between;
+            border-bottom: 5px ridge burlywood;
+            list-style-type: decimal;
+        }
+
+        .reviewDraw h1{
+
+            padding: 5px;
+            background-color: burlywood;
+            color: saddlebrown;
+            border-radius: 15%;
+            border-bottom: 4px solid blanchedalmond;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .reviewDraw h3{
+
+            padding: 15px;
+            font-size: 1.rem;
+        }
+
+  
+        .addReview {
+
+            display: flex;
+            padding: 5px;
+            width: 100%;
+            justify-content: center;
+            
+        }
+
+        .addReview form{
+
+            display: flex;
+            padding: 5%;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            border: 1px solid blanchedalmond;
+      
+        }
+
+        .addReview input{
+           padding: 5px;
+           margin: 0.5rem;
+            width: 10%;
+           
+        }
+        .addReview textarea{
+            height: 7rem;
+             width: 90%;
+            
+         }
+       
+         .addReview label{ 
+           font-size: 2rem;
+           font-weight: lighter;
+        }
+        .addReview button{
+            width: 10%;
+            height: 20%;
+        }
+     
+        .Ratings ol{
+            display: flex;
+        }
+        .Ratings li{
+            width: 25px;
+            list-style: none;
+           
+        }
+        .reviewDraw ul li h3{
+            font-size: 2rem;
+            color: indigo;
+            font-style: italic;
+           
+        }
+
+        .RatingStar{
+                border: 1px solid burlywood;
+                padding: 10px;    
+        }
+
+        .RatingStar h1{
+            font-weight: lighter;
+            font-style: italic;
+            font-weight: 1.5rem;
+          }
+
+        .RatingStar ol{
+            display: flex;
+            list-style: none;
+           
+        }
+        .Star{
+            padding: 5px;
+              
+        }
+        .Star svg:Hover{
+            cursor: pointer;
+            transform: scale(1.25);
+        }
+
+       
+      
+       
+       
+        
+        
